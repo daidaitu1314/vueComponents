@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <img @click="showPreviewImage" src="./assets/logo.png">
+    <img src="./assets/nav01.png" alt="">
+    <img src="./assets/nav03.png" alt="">
+    <img src="./assets/p01.jpg" alt="">
+    <img src="./assets/p02.jpg" alt="">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -29,10 +33,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       imgList:[
-        './dist/logo.png',
-        './dist/logo.png',
-        './dist/logo.png',
-        './dist/logo.png'
+        './dist/nav01.png',
+        './dist/nav03.png',
+        './dist/p01.jpg',
+        './dist/p02.jpg'
       ]
     }
   },

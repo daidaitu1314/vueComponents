@@ -4,7 +4,7 @@
     <div :class="{preview:true,slide:slide}"
          :style="{width:list.length+'00%',transform:'translate3d('+translateX+'px,0px,0px)'}">
       <div class="item" v-for="item in list"
-           :style="{backgroundImage:'url('+currentImage+')',width:100/list.length+'%'}"></div>
+           :style="{backgroundImage:'url('+item+')',width:100/list.length+'%'}"></div>
     </div>
   </div>
 </template>
